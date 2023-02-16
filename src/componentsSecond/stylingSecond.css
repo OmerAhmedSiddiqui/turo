@@ -1,0 +1,55 @@
+#HeaderProfile {
+    background-image: url(https://resources.turo.com/client/v2/builds/assets/banner-bg6ca604dee6032faf4f91.png);
+    height: 200px;
+border: 1px solid rgb(235, 231, 231);
+}
+#buttonProfilePicHolder{
+    background-color: rgb(89, 60, 251);
+    color: white;
+    margin-left: auto;
+    margin-top: auto;
+    height: 40px;
+    width: 90px;
+    margin-right: 350px;
+    font-size: 12.5px;
+    margin-bottom: 70px;
+}
+#profilePicImage{
+    width: 150px;
+    height: 120px;
+    margin-left: 350px;
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 1000px) {
+    #profilePicImage{
+        margin-top: 130px;
+        margin-left:100px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+
+
+    #buttonProfilePicHolder{
+        margin-right: 40px;
+        font-size: 12.5px;
+        margin-bottom: 150px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    #profilePicImage{
+        margin-top: 130px;
+        margin-left:100px;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+
+    #buttonProfilePicHolder{
+        margin-right: 20px;
+        font-size: 12.5px;
+        margin-bottom: 180px;
+    }
+  }

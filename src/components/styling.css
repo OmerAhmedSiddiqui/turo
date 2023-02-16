@@ -1,0 +1,30 @@
+#popUp {
+    /* position: absolute; */
+    text-align: center;
+    font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+    /* padding: 50px; */
+    /* visibility: hidden; */
+}
+
+.btnPopUp{
+    font-size: 25px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    width: 100%;
+    /* color: red; */
+}
+
+#btn1PopUp{
+    margin-top: 500px;
+    /* width: 200%; */
+}
+#btn1PopUp:hover,#btn2PopUp:hover,#btn3PopUp:hover,#btn4PopUp:hover{
+background-color: rgb(238, 235, 235);
+}
+.spanPopUp{
+    color: rgb(89, 60, 251);
+}
+.privacyPopUp{
+    font-size: 13px;
+    margin-top: 30px;
+}
